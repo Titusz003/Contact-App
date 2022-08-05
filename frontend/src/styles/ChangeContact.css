@@ -1,0 +1,124 @@
+.ChangeContact {
+  position: fixed;
+  top: 20%;
+  left: 40%;
+  /* margin-left: auto;
+  margin-right: auto;
+  height: 540px;
+  width: 364px; */
+  border-radius: 8px;
+  padding: 24px;
+  background: #141414;
+  /* left: 0;
+  right: 0; */
+  visibility: hidden;
+  transition: 0.5s;
+  opacity: 0;
+}
+.ChangeContact.active {
+  visibility: visible;
+  opacity: 1;
+  transition: 0.5s;
+}
+.addContactText {
+  font-family: "Glysa";
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 40px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #ffffff;
+}
+.addPicture {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+.addPictureButton {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 8px 16px 8px 12px;
+  gap: 8px;
+  width: 139px;
+  height: 40px;
+  background: #282828;
+  border-radius: 8px;
+}
+.addPictureButton:hover {
+  background: #323232;
+}
+.addPictureText {
+  font-family: "Lexend Deca";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #ffffff;
+}
+.formInput {
+  display: block;
+  height: 40px;
+  width: 100%;
+  left: 0px;
+  top: 20px;
+  border-radius: 8px;
+  font-family: "Lexend Deca";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #ffffff52;
+
+  background: #1e1e1e;
+  border: 1px solid #282828;
+}
+.formLabel {
+  font-family: "Lexend Deca";
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 16px;
+  letter-spacing: 0.01em;
+  text-align: left;
+  display: block;
+  color: #ffffff8f;
+  margin-bottom: 24px;
+}
+.orderButtons {
+  float: right;
+}
+.formCancel {
+  margin-right: 24px;
+  font-family: "Lexend Deca";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: 0em;
+  text-align: left;
+  background: none;
+  border: none;
+  color: #ffffff;
+}
+.formDone {
+  padding: 8px 16px;
+  gap: 8px;
+  width: 68px;
+  height: 40px;
+  background: #262626;
+  border-radius: 8px;
+  font-family: "Lexend Deca";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: 0em;
+  text-align: left;
+
+  color: #ffffff;
+}
+#addPictureInput {
+  opacity: 0;
+  position: absolute;
+  z-index: -1;
+}

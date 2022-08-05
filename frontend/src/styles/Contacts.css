@@ -1,0 +1,130 @@
+.Contacts.active {
+  filter: brightness(50%);
+  background: rgba(0, 0, 0, 0.4);
+}
+.header {
+  margin-top: 96px;
+  display: flex;
+  border-top: 1px solid #282828;
+  border-bottom: 1px solid #282828;
+  align-items: center;
+}
+.contactsText {
+  margin-right: 24.1%;
+  font-family: "Glysa";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 48px;
+  color: #ffffff;
+}
+.cogwheel {
+  margin-right: 1.9%;
+  width: 18.8px;
+  height: 19px;
+  top: 2.5px;
+  left: 2.6px;
+  color: #ffffff;
+}
+.photo {
+  height: 20px;
+  width: 20px;
+  left: 2px;
+  top: 2px;
+  color: #ffffff;
+  margin-right: 2.3%;
+}
+.leftArrow {
+  margin-left: 20%;
+  margin-right: 4.2%;
+  height: 15.25px;
+  width: 15.25px;
+  left: 4.375px;
+  top: 4.375px;
+  border-radius: 0px;
+  color: #ffffff;
+}
+.addNew {
+  margin-right: 4%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 8px 16px 8px 12px;
+  gap: 8px;
+  background: green;
+  width: 120px;
+  height: 40px;
+  background: #282828;
+  border-radius: 1000px;
+}
+.addNewText {
+  font-family: "Lexend Deca";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #ffffff;
+}
+.addNew:hover {
+  background: #323232;
+}
+.plusSign {
+  height: 13.5px;
+  width: 13.5px;
+  left: 5.25px;
+  top: 5.25px;
+  border-radius: 0px;
+  color: #ffffff;
+}
+.sun {
+  height: 21.5px;
+  width: 21.5px;
+  left: 1.25px;
+  top: 1.25px;
+  border-radius: 0px;
+  color: #ffffff;
+}
+.contactList {
+  margin-top: 48px;
+  margin-left: 20%;
+}
+.contactElement {
+  width: 72%;
+  display: flex;
+  gap: 16px;
+  margin-bottom: 24px;
+}
+.contactElementName {
+  margin: 0px;
+  font-family: "Lexend Deca";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #ffffff;
+}
+.contactElementPhoneNumber {
+  margin: 0px;
+  font-family: "Lexend Deca";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  color: rgba(255, 255, 255, 0.56);
+}
+.buttons {
+  display: flex;
+  gap: 8px;
+}
+.button {
+  margin-right: 1.9%;
+  width: 18.8px;
+  height: 19px;
+  top: 2.5px;
+  left: 2.6px;
+  color: #ffffff;
+}
+.button:hover {
+  background: darkcyan;
+}
